@@ -474,8 +474,15 @@ body {
     position: relative;
     animation: fillBars 2.5s 1;
   }
-  
-  .skill-per1::before,.skill-per2::before, .skill-per3::before{
+
+.skill-per4{
+    background-color:#FFA500;
+    height: 14px;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+  .skill-per1::before,.skill-per2::before, .skill-per3::before , .skill-per4::before{
     content: attr(per);
     position: absolute;
     padding: 4px 6px;
@@ -488,7 +495,7 @@ body {
     transform: translateX(50%);
   }
   
-  .skill-per1::after, .skill-per2::after, .skill-per3::after{
+  .skill-per1::after, .skill-per2::after, .skill-per3::after, .skill-per4::after{
     content: "";
     position: absolute;
     width: 10px;

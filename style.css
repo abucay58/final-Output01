@@ -616,8 +616,8 @@ body {
 
 /*image---------->*/
 .reverse{
-    height: 70vmin;
-    width: 70vmin;
+    height: 60vmin;
+    width: 60vmin;
     border-radius: 50%;
     overflow: hidden;
     border: 1vmin solid rgb(170, 174, 175);
